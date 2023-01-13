@@ -4,34 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "bc15c0aaa238a303",
+        "id": "34459fec791f4154",
         "type": "tabs",
         "children": [
           {
-            "id": "14e42e950b1f0eb9",
+            "id": "4de71a5001dc18bb",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "db_schema.canvas",
                 "viewState": {
-                  "x": 1454.9935848280704,
-                  "y": 498.0954983545237,
-                  "zoom": -1.3538969493429889,
+                  "x": 2073.3608245112473,
+                  "y": 950.7638227257542,
+                  "zoom": -0.5661241306850829,
                   "snapToGrid": false
                 }
-              }
-            }
-          },
-          {
-            "id": "ab910dce0bb43c79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
               }
             }
           }
@@ -162,9 +150,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "14e42e950b1f0eb9",
+  "active": "4de71a5001dc18bb",
   "lastOpenFiles": [
-    "README.md",
-    "db_schema.canvas"
+    "2023-01-11.md",
+    "db_schema.canvas",
+    "db_schema.png",
+    "README.md"
   ]
 }
