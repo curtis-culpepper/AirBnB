@@ -1,5 +1,29 @@
 {
   "dependencies": {
     "bcryptjs": "^2.4.3"
-  }
+  },
+  "name": "airbnb",
+  "description": "## Database Schema Design",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "install": "npm --prefix backend install backend",
+    "dev:backend": "npm install --prefix backend start",
+    "sequelize": "npm run --prefix backend sequelize",
+    "sequelize-cli": "npm run --prefix backend sequelize-cli",
+    "start": "npm start --prefix backend",
+    "build": "npm run --prefix backend build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/curtis-culpepper/AirBnB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/curtis-culpepper/AirBnB/issues"
+  },
+  "homepage": "https://github.com/curtis-culpepper/AirBnB#readme"
 }
