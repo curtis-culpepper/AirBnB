@@ -1,4 +1,7 @@
 "use strict";
+
+const { mapFinderOptions } = require("sequelize/types/utils");
+
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
     async up(queryInterface, Sequelize) {
@@ -61,6 +64,7 @@ module.exports = {
         });
     },
     async down(queryInterface, Sequelize) {
+        mapFinderOptions.tableName = "Spots";
         await queryInterface.dropTable("Spots");
     },
 };

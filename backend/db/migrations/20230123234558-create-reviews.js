@@ -29,8 +29,13 @@ module.exports = {
                 type: Sequelize.STRING,
                 allowNull: false,
             },
+            // stars must be an integer between 1 and 5
             stars: {
-                type: Sequelize.FLOAT,
+                type: Sequelize.INTEGER,
+                allowNull: false,
+                validate: {
+                    min: 1,
+                    max: 5,
             },
             createdAt: {
                 allowNull: false,
